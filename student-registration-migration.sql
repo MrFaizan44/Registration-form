@@ -1,0 +1,4 @@
+ALTER TABLE students
+    ADD COLUMN father_name VARCHAR(100) NULL AFTER name,
+    ADD COLUMN phone VARCHAR(30) NULL AFTER email,
+    ADD COLUMN address VARCHAR(500) NULL AFTER age;
